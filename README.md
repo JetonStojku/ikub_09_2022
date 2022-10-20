@@ -1,6 +1,11 @@
 # ikub_09_2022
 Akademia IKUB kursi Python Shtator 2022 - Nentor 2022
 
+# Database links
+- https://youtu.be/ABwD8IYByfk
+- https://youtu.be/ztHopE5Wnpc
+- https://www.guru99.com/database-design.html
+
 # Commands
 - Create new env
   - python -m venv ~/env
