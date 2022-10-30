@@ -9,7 +9,7 @@ router.register('profile', views.UserProfileViewSet)
 router.register('feed', views.UserProfileFeedViewSet)
 router.register('product', views.ProductViewSet)
 router.register('invoice', views.InvoiceViewSet)
-router.register('InvoiceItem', views.InvoiceItemViewSet)
+router.register('invoice_item', views.InvoiceItemViewSet)
 
 urlpatterns = [
     path('hello-view/', views.HelloApiView.as_view()),
