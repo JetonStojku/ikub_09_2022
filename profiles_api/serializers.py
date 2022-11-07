@@ -55,7 +55,6 @@ class ProductSerializer(serializers.ModelSerializer):
 
 class InvoiceSerializer(serializers.ModelSerializer):
     items = serializers.SerializerMethodField()
-    quantity = serializers.FloatField(validators=['check_positive'])
 
     def get_items(self, invoice):
         return InvoiceItemSerializer(invoice.invoiceitem_set.all(), many=True).data
